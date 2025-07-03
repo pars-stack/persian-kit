@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/@persian-kit/date" },
+    { "path": "./packages/@persian-kit/core" }
+  ],
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["es2016", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "paths": {
+      "jalaali-js": ["./node_modules/jalaali-js"]
+    }
+  }
+}
+
+

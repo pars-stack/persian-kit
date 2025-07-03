@@ -1,0 +1,25 @@
+{
+  "name": "persian-kit-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for Persian Kit libraries",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "unbuild": "^3.6.0"
+  },
+  "dependencies": {
+    "@types/jalaali-js": "^1.2.0",
+    "jalaali-js": "^1.2.8"
+  }
+}
